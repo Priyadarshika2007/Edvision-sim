@@ -1,0 +1,54 @@
+# Dependencies
+node_modules/
+/.pnp
+.pnp.js
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# Build and coverage output
+dist/
+build/
+coverage/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+htmlcov/
+
+# Frontend tooling
+.npm/
+.eslintcache
+*.tsbuildinfo
+
+# Environment and local configuration
+.env
+.env.*
+!.env.example
+*.local
+
+# IDE and OS files
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs and runtime files
+*.log
+*.pid
+*.seed
+
+# Generated assets and local databases
+*.sqlite
+*.sqlite3
+*.db
